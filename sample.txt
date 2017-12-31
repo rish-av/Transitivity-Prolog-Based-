@@ -1,0 +1,15 @@
+Sample Inputs for finding transitive closure!
+
+findtransitiveclosure([0,1,2,3,4],[[0,1],[1,3],[0,2],[1,2],[3,4],[2,1]]).
+findtransitiveclosure([0,1,2],[[0,1],[1,2]]).
+findtransitiveclosure([0,1,8,9],[[0,1],[8,9],[8,8]]).
+findtransitiveclosure([4,7,5],[[4,7],[5,5],[4,5]]).
+findtransitiveclosure([1,2,3],[[1,1],[2,2],[3,3],[1,2],[2,3]]).
+
+Sample Inputs to check transitivity of relation!
+
+istransitive([1,0],[[0,1],[1,0],[1,1]]).
+istransitive([1,2,3],[[0,1],[1,0],[1,1],[1,2],[2,2]]).
+istransitive([1,4,87],[[1,4],[4,1],[1,1],[4,4],[87,1]]).
+istransitive([5,10,15,20],[[5,20],[20,15],[5,15],[10,10]]).
+istransitive([1,2,7,8],[[1,2],[2,7],[7,8],[1,7],[2,8],[1,8]]).
